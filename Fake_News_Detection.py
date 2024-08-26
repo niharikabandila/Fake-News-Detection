@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-data = pd.read_csv("C:/Users/Siva Shankar/Desktop/Fake News Detection/news.csv", error_bad_lines=False, engine='python')
+data = pd.read_csv("C:/Fake News Detection/news.csv", error_bad_lines=False, engine='python')
 
 x = data['text']
 y = data['label']
